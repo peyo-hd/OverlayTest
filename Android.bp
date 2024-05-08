@@ -1,0 +1,8 @@
+android_app {
+    name: "OverlayTest",
+    certificate: "shared",
+    proprietary: true,
+    sdk_version: "current",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+}
